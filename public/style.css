@@ -1,0 +1,169 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+inadjust ko pa check nalang sa baba
+nav{
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 20px;
+    width: 100%;
+    outline-style: solid;
+    outline-color: #a59bd5;
+    outline-width: 2px;
+    background-color: #371d50;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}*/
+ul{
+    padding: 0;
+    margin: 0;
+    
+    list-style: none;
+}
+/*
+di na nagagamit
+#left{
+    float: left;
+    width: 130px;
+    height: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#User {
+    float: right;
+    width: 130px;
+    margin-right: 10px;
+}*/
+
+a{
+    padding: 20px;
+    width: fit-content;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+#section1{
+    height: 740px;
+    color: white;
+    background-image: url(bg_homepage.png);
+    background-repeat: no-repeat;
+    background-size: 1520px 740px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#section1.homepage{
+display: flex;
+flex-direction: column;
+
+
+}
+#section1.homepage div{
+
+    
+}
+#section1.homepage h1 {
+ align-self: center;
+
+}
+
+
+
+
+#section2{
+    height: 740px;
+    color: white;
+    background-image: url("bg2.png");
+    background-repeat: no-repeat;
+    background-size: 1520px 740px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+#section3{
+    height: 740px;
+    color: white;
+    background-image: url("bg3.png");
+    background-repeat: no-repeat;
+    background-size: 1520px 740px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+#section4{
+    height: 740px;
+    color: white;
+    background-image: url("bg4.png");
+    background-repeat: no-repeat;
+    background-size: 1520px 740px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+#section5{
+    height: 740px;
+    color: white;
+    background-image: url("bg3.png");
+    background-repeat: no-repeat;
+    background-size: 1520px 740px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+h1{
+    margin: 100px;
+    text-align: center;
+    padding: 0;
+}
+h2{
+text-align: center;
+}
+.navbar {
+    border-radius: 20px;
+    width: 97%;
+    outline: 2px solid #a59bd5;
+    background: #371d50;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+}
+
+.navbar .links {
+    text-wrap: nowrap;
+    position: relative;
+}
+
+.navbar .links a {
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+
+.navbar .links:hover a {
+    color: #371d50;
+    background: #a59bd5;
+}
