@@ -15,8 +15,29 @@
   align-items: center;
   border: 2px solid white;
   flex-direction: column;
+  max-width: 700px;
+  position: relative;
+  left: 50%;
+  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  transform: translateX(-50%);
 }
 
 .signin_form > .demeco-icon {
   overflow: hidden;
+  border: 1px solid white;
+  width: 148px;
 }
+
+.signin_form > .demeco-icon > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* .signin_form > input {
+  border-radius: 10px;
+  padding: 20px;
+  outline: none;
+  border: none;
+} */

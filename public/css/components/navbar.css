@@ -15,7 +15,6 @@
 
 .navbar .links {
   text-wrap: nowrap;
-  position: relative;
 }
 
 .navbar .links a {
@@ -23,7 +22,6 @@
   padding: 20px 20px;
   color: white;
   text-transform: uppercase;
-  position: relative;
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;

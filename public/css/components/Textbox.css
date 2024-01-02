@@ -1,0 +1,27 @@
+.Textbox {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+}
+.Textbox {
+  font-size: 18px;
+  padding: 5px 10px;
+  width: 100%;
+  outline: none;
+  background: #c28af6;
+  color: #000000;
+  border: 1px solid #62457c;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.Textbox:focus {
+  background: #c28af6;
+  border: 1px solid #62457c;
+  border-radius: 10px;
+}
+
+.Textbox:placeholder {
+  color: #000000;
+}
