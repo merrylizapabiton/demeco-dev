@@ -1,0 +1,36 @@
+.navbar {
+  border-radius: 20px;
+  width: 97%;
+  outline: 2px solid #a59bd5;
+  background: #371d50;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+}
+
+.navbar .links {
+  text-wrap: nowrap;
+  position: relative;
+}
+
+.navbar .links a {
+  display: block;
+  padding: 20px 20px;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  user-select: none;
+}
+
+.navbar .links:hover a {
+  color: #371d50;
+  background: #a59bd5;
+}
