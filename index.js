@@ -4,7 +4,6 @@ let cors = require("cors")
 let app = express()
 let PORT = 6969
 
-app.use(cors())
 app.use(express.static(`${__dirname}/public`))
  
 app.get("/signin", (_, res) => {
