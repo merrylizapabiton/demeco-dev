@@ -1,5 +1,4 @@
 let express = require("express")
-let cors = require("cors")
 
 let app = express()
 let PORT = 6969
