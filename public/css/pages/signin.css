@@ -22,6 +22,7 @@
   padding-top: 100px;
   padding-bottom: 40px;
   transform: translateX(-50%);
+  color: white;
 }
 
 .signin_form > .demeco-icon {
@@ -35,9 +36,80 @@
   object-fit: cover;
 }
 
-/* .signin_form > input {
+/*.signin_form > input {
   border-radius: 10px;
   padding: 20px;
   outline: none;
   border: none;
-} */
+}
+*/
+
+.Textbox {
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  margin: 10px;
+  border-style: solid;
+  border-color: wheat;
+  border-radius: 1px;
+  padding-left: 105px;
+}
+.input {
+  font-size: 20px;
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  background: #d3b5f0;
+  color: #000000;
+  border: 1px solid #62457c;
+  border-radius: 100px;
+  transition: 0.3s ease;
+  margin: 5px;
+  width: 450px;
+  opacity: 0.65;
+}
+
+.input:focus {
+  background: #cbafe7;
+  border: 1px solid #62457c;
+  border-radius: 10px;
+}
+
+.input::placeholder {
+  color: #000000;
+}
+
+.forgotpass {
+  color: #c2aecc;
+  font-size: 15px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+.forgotpass:hover {
+  color: #eb63b7;
+}
+
+.LoginBtn {
+  background-color: transparent;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 13px 27px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.LoginBtn:hover {
+  background-color: transparent;
+}
+
+.LoginBtn:active {
+  position: relative;
+  top: 1px;
+}
