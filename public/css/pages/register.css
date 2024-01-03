@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bg {
+  background-image: url(/../assets/bg_homepage.png);
+  background-size: 100%;
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.regform {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  max-width: fit-content;
+  position: relative;
+  left: 50%;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.regform h1 {
+  font-size: 28px;
+  word-spacing: 1px;
+}
+
+.regdiv {
+  display: flex;
+  position: relative;
+  align-items: left;
+  border: 2px solid white;
+  border-radius: 20px;
+  flex-direction: column;
+  width: 1000px;
+  position: relative;
+  left: 50%;
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  transform: translateX(-50%);
+  color: white;
+}
+.columndiv {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  position: relative;
+}
+
+.regBtn {
+  align-self: center;
+  background-color: transparent;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 10px 22px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  font-weight: bold;
+  width: 300px;
+}
+.regBtn:hover {
+  background-color: #cbafe7;
+}
+
+.regBtn:active {
+  position: relative;
+  top: 2px;
+}
+
+.Textbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  margin: 10px;
+  padding-left: 10px;
+}
+.input {
+  font-size: 13px;
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  background: #d3b5f0;
+  color: #000000;
+  border: 1px solid #62457c;
+  border-radius: 100px;
+  transition: 0.3s ease;
+  margin: 5px;
+  width: 450px;
+  opacity: 0.65;
+}
+.radio {
+  font-size: 13px;
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  background: #d3b5f0;
+  color: #000000;
+  border: 1px solid #62457c;
+  border-radius: 100px;
+  transition: 0.3s ease;
+  margin-left: 15px;
+  width: fit-content;
+  opacity: 0.65;
+}
+
+.input:focus {
+  background: #cbafe7;
+  border: 1px solid #62457c;
+  border-radius: 10px;
+}
+
+.input::placeholder {
+  color: #000000;
+}
+
+.divstyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.divstyle h4 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.divstyle a {
+  color: #cbafe7;
+}
+.divstyle a:hover {
+  color: #371d50;
+}
+.divline {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.signup-with-facebook {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 10px;
+  justify-content: center;
+  max-width: 300px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  border-radius: 20px;
+  border: solid;
+  border-width: 1px;
+  color: white;
+  border-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 10px;
+  background-color: transparent;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.signup-with-facebook:hover {
+  background-color: #cbafe7;
+}
+
+.signup-with-facebook:active {
+  position: relative;
+  top: 2px;
+}

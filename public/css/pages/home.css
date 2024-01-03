@@ -9,41 +9,13 @@ body {
 
 .home {
 }
-/*
-inadjust ko pa check nalang sa baba
-nav{
-    margin-left: 2px;
-    margin-right: 2px;
-    border-radius: 20px;
-    width: 100%;
-    outline-style: solid;
-    outline-color: #a59bd5;
-    outline-width: 2px;
-    background-color: #371d50;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-}*/
+
 ul {
   padding: 0;
   margin: 0;
 
   list-style: none;
 }
-/*
-di na nagagamit
-#left{
-    float: left;
-    width: 130px;
-    height: fit-content;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-#User {
-    float: right;
-    width: 130px;
-    margin-right: 10px;
-}*/
 
 a {
   padding: 20px;
@@ -207,3 +179,6 @@ h1 {
 h2 {
   text-align: center;
 }
+/* 
+0*/
+/* Products */

@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/pages/signin.css" />
     <link rel="stylesheet" href="css/components/navbar.css" />
-    <lin rel="stylesheet" href="css/components/Textbox.css" />
+    <link rel="stylesheet" href="css/pages/register.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="signin">
+    <div class="bg">
       <ul class="navbar">
         <li class="links"><a href="/">home</a></li>
         <li class="links"><a href="/#section2">products</a></li>
@@ -18,19 +17,57 @@
         <li class="links"><a href="/#section5">about us</a></li>
         <li class="links"><a href="/signin" target="_self">sign in</a></li>
       </ul>
-
-      <div class="signin_form">
-        <div class="demeco-icon">
-          <img src="assets/logo.png" alt="demeco-logo" />
+      <div class="regform">
+        <h1>Create your Account</h1>
+        <div class="regdiv">
+          <h3>User Information</h3>
+          <div class="Textbox">
+            <input class="input" placeholder="First name" type="text" />
+            <input class="input" placeholder="Last name" type="text" />
+          </div>
+          <div class="Textbox">
+            <h3>Gender</h3>
+            <input class="radio" type="radio" />
+            <h3>Male</h3>
+            <input class="radio" type="radio" />
+            <h3>Female</h3>
+            <h3>ㅤㅤ</h3>
+            <h3>Date of Birth</h3>
+          </div>
+          <div>
+            <h3>Login & Credentials</h3>
+            <input class="input" placeholder="E-mail" type="text" />
+            <input class="input" placeholder="Phone Number" type="text" />
+            <input class="input" placeholder="Password" type="text" />
+            <input class="input" placeholder="Confirm Password" type="text" />
+          </div>
+          <div class="divstyle">
+            <h4>
+              ㅤBy clicking Create your account below,<br />
+              ㅤㅤyou've read the full text and agreed<br />
+              to the <a href="/register">Terms & Conditions</a> and
+              <a href="/register">Privacy Policy.</a>
+            </h4>
+          </div>
+          <input type="button" value="Create your Account" class="regBtn" />
+          <br />
+          <!--Hi edzz!-->
+          <!--Hi edzz!-->
+          <div class="divline">
+            <h5>__________________________________________________________</h5>
+            <h5>ㅤㅤ</h5>
+            <h3>OR</h3>
+            <h5>ㅤㅤ</h5>
+            <h5>_________________________________________________________</h5>
+          </div>
+          <button class="signup-with-facebook">
+            <img src="assets/facebook.svg" alt="facebook logo" />
+            <p>Sign up with Facebook</p>
+          </button>
+          <div class="divstyle">
+            <h4>Already have an account? <a href="signin.html">Log in</a></h4>
+          </div>
         </div>
-        <h1>Welcome!</h1>
-        <h3>Sign in to your account.</h3>
-        <div class="Textbox">
-          <input class="input" placeholder="Username" type="text" />
-          <input class="input" placeholder="Password" type="password" />
-        </div>
-        <a href="/forgot-password" class="forgotpass">Forgot password</a>
-        <input type="button" value="Log in" class="LoginBtn" />
       </div>
     </div>
   </body>
