@@ -2,7 +2,7 @@
 
 before running the app locally, you must have to install all these packages on your local machine.
 
-- [**`node & npm`**](https://nodejs.org/en/download) - `npm` is the package manager of javascript, and `node` is the backend run time of javascript.
+- [**`node & npm`**](https://nodejs.org/en/download) - `npm` is the package manager of javascript, and `node` is the backend runtime of javascript.
 
 ## Installation Guide
 
