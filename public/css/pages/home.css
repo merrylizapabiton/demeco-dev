@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -132,6 +137,39 @@ a {
   max-width: 220px;
 }
 
+#section2 > .gases {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+  /*ganyan ba gusto mo pre*/
+}
+#section2 > .gases > button {
+  background: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  user-select: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  /* pre di pantay pantay kasi image nyo yung size*/
+}
+#section2 > .gases > button:hover > img {
+  transform: scale(1.1);
+  user-select: none;
+  /* palitan ko ba icon? */
+  /* di pantay pantay e */
+}
+
+#section2 > .gases > button > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
 #section2 {
   height: 100vh;
   color: white;
