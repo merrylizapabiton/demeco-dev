@@ -1,222 +1,263 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-html {
-  scroll-behavior: smooth;
-}
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+.section {
+  padding-top: 80px;
+  min-height: 100vh;
+  position: relative;
+  outline: 1px solid white;
 }
 
-.home {
+.section.one > .left-right__container {
+  display: flex;
+  min-height: 50vh;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-
-  list-style: none;
+.section.one > .left-right__container > .left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 40%;
 }
 
-a {
-  padding: 20px;
-  width: fit-content;
+.section.one > .left-right__container > .left > h1 {
+  text-transform: uppercase;
+  font-size: 64px;
+  color: white;
+}
+
+.section.one > .left-right__container > .left > hr {
+  min-width: 360px;
+  height: 5px;
+  background: white;
+  border: none;
+}
+
+.section.one > .left-right__container > .left > p {
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+}
+
+.section.one > .left-right__container > .left > .login-btn {
+  cursor: pointer;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.section.one > .left-right__container > .left > .login-btn:hover {
+  background: none;
+}
+
+.section.one > .left-right__container > .left > .login-btn > a {
   display: block;
   text-decoration: none;
+  padding: 10px 25px;
+}
+
+.section.one > .left-right__container > .left > .login-btn > a:hover {
   color: white;
-  text-transform: uppercase;
-  font-weight: bold;
+  background: #371d50;
 }
 
-#section1 {
-  height: 100vh;
+.section.one > .left-right__container > .left > .new-here-signup-now {
   color: white;
-  background-image: url(/../assets/bg_homepage.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: flex;
-  flex-direction: row;
-  border: 1px solid green;
-}
-#section1 .left {
-  border: 1px solid white;
-  align-self: center;
-  flex-basis: 35%;
-}
-#section1 .left .title {
-  margin-bottom: -20px;
-  font-size: 42px;
-}
-
-#section1 .left .line {
-  margin-bottom: -12px;
-  margin-top: -32px;
-}
-
-#section1 .left h2 {
-  font-weight: normal;
-  font-size: 16px;
-  word-spacing: 2px;
-  text-transform: uppercase;
-}
-
-#section1 .left .Button {
-  background-color: white;
-  border-radius: 28px;
-  border: 1px solid #ffffff;
-  display: inline-block;
-  cursor: pointer;
-  color: #371d50;
-  font-family: Arial;
-  font-size: 20px;
-  padding: 10px 22px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #2f6627;
-  font-weight: bold;
-  word-spacing: 1px;
-}
-
-#section1 .left .Button:hover {
-  background-color: rgb(251, 197, 252);
-}
-
-#section1 .left .Button:active {
-  position: relative;
-  top: 1px;
-}
-
-#section1 .left .btndiv {
-  margin-top: 30px;
-  padding-left: 165px;
-  padding-bottom: 10px;
-}
-
-#section1 .left .signdiv {
-  margin-left: 111px;
-}
-
-#section1 .left .signdiv .signup {
-  color: white;
-  font-size: 15px;
   text-decoration: underline;
-  font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10px;
-  font-size: 12px;
-  word-spacing: 1px;
-}
-#section1 .left .signdiv .signup:hover {
-  color: rgb(251, 197, 252);
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+
 }
 
-#section1 .right {
+.section.one > .left-right__container > .right {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  border: 1px solid white;
-  align-self: center;
-  flex-basis: 65%;
+  justify-content: center;
+  gap: 20px;
+  flex-basis: 60%;
 }
 
-#section1 .right .tagline {
-  max-width: 400px;
-  min-width: 250px;
-  font-size: 35.5px;
-  font-weight: normal;
-}
-#section1 .right .logo {
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  padding: 5px;
-  max-height: 220px;
-  max-width: 220px;
+.section.one > .left-right__container > .right > .tagline > p {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
 }
 
-#section2 > .gases {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  min-height: 100vh;
-  /*ganyan ba gusto mo pre*/
-}
-#section2 > .gases > button {
-  background: none;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  cursor: pointer;
+.section.one > .left-right__container > .right > .demeco-logo {
+  width: 300px;
+  height: 300px;
   overflow: hidden;
-  border: none;
-  outline: none;
-  user-select: none;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  /* pre di pantay pantay kasi image nyo yung size*/
-}
-#section2 > .gases > button:hover > img {
-  transform: scale(1.1);
-  user-select: none;
-  /* palitan ko ba icon? */
-  /* di pantay pantay e */
 }
 
-#section2 > .gases > button > img {
+.section.one > .left-right__container > .right > .demeco-logo > img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.section.one > .something-that-is-really-long {
+  color: white;
+  font-size: 17px;
+  max-width: 60vw;
+  margin: 29px;
+}
+
+.section.one > .social-icons__container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 50px;
+  bottom: 0;
+}
+.section.one > .social-icons__container > img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.section.two {
+  padding-top: 0;
+  position: relative;
+}
+
+.section.two > .select-fuel {
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  min-height: 100vh;
+}
+
+.section.two > .select-fuel > .fuel {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  padding: 40px;
   background: white;
-}
-#section2 {
-  height: 100vh;
-  color: white;
-  background-image: url("/../assets/bg2.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 100%;
+  cursor: pointer;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-#section3 {
-  height: 100vh;
-  color: white;
-  background-image: url("/../assets/bg3.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  display: inline-block;
+.section.two > .select-fuel > .fuel > img {
+  object-fit: cover;
+  user-select: none;
+  object-position: center;
   width: 100%;
+  height: 100%;
 }
 
-#section4 {
-  height: 100vh;
-  color: white;
-  background-image: url("/../assets/bg4.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 100%;
+.section.two > .select-fuel > .fuel:hover {
+  background:
+    linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
 }
 
-#section5 {
-  height: 100vh;
+.section.two > .select-fuel > .fuel.diesel:before {
+  content: "diesel";
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bold;
   color: white;
-  background-image: url("/../assets/bg3.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 100%;
+  text-transform: uppercase;
+  transform: translateX(-50%);
+  bottom: -30px;
 }
 
-h1 {
+.section.two > .select-fuel > .fuel.unleaded:before {
+  content: "unleaded";
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+
+.section.two > .select-fuel > .fuel.regular:before {
+  content: "regular";
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+
+.section.five > h1 {
   text-align: center;
-  padding: 0;
+  margin-top: 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
 }
-h2 {
+
+.section.five > .card__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 100px;
+  user-select: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-inline: 100px;
+}
+
+.section.five > .card__container > .card {
+  border: 5px solid white;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-inline: 50px;
+  margin-bottom: 200px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  flex: 1;
+}
+
+.section.five > .card__container > .card > .contributor-profile {
+  padding: 20px;
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  overflow: hidden;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -64px;
+}
+
+.section.five > .card__container > .card > .contributor-profile > img {
+  object-position: center;
+  width: 64px;
+  height: 64px;
+  user-select: none;
+
+}
+
+.section.five > .card__container > .card > p {
   text-align: center;
+  text-wrap: nowrap;
+  margin-block: 5px;
+  user-select: none;
+  font-size: 20px;
+  color: white;
 }
-/* 
-0*/
-/* Products */
