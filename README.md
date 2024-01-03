@@ -7,12 +7,12 @@ before running the app locally, you must have to install all these packages on y
 ## Installation Guide
 
 ### Windows Users
-
+#### **step 1 - installation for windows users**
 click this [**link**](https://nodejs.org/dist/v20.10.0/node-v20.10.0-x64.msi) to install **`npm and node`** on your windows machine, or go to [`nodejs official website`](https://nodejs.org/en/download) to get the most latest version of **`node & npm`**
 
 ### Linux Users
 
-#### **installation: step 1**
+#### **step 1 - installation for linux users**
 install `node version manager`
 using `curl` or `wget`
 
@@ -24,7 +24,7 @@ with `wget`
 ```
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
-#### **installation: step 2**
+#### **step 2 - installation for linux users**
 install `node and npm`
 ```bash
 nvm install --lts
