@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -9,41 +14,13 @@ body {
 
 .home {
 }
-/*
-inadjust ko pa check nalang sa baba
-nav{
-    margin-left: 2px;
-    margin-right: 2px;
-    border-radius: 20px;
-    width: 100%;
-    outline-style: solid;
-    outline-color: #a59bd5;
-    outline-width: 2px;
-    background-color: #371d50;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-}*/
+
 ul {
   padding: 0;
   margin: 0;
 
   list-style: none;
 }
-/*
-di na nagagamit
-#left{
-    float: left;
-    width: 130px;
-    height: fit-content;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-#User {
-    float: right;
-    width: 130px;
-    margin-right: 10px;
-}*/
 
 a {
   padding: 20px;
@@ -160,6 +137,39 @@ a {
   max-width: 220px;
 }
 
+#section2 > .gases {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+  /*ganyan ba gusto mo pre*/
+}
+#section2 > .gases > button {
+  background: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  user-select: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  /* pre di pantay pantay kasi image nyo yung size*/
+}
+#section2 > .gases > button:hover > img {
+  transform: scale(1.1);
+  user-select: none;
+  /* palitan ko ba icon? */
+  /* di pantay pantay e */
+}
+
+#section2 > .gases > button > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
 #section2 {
   height: 100vh;
   color: white;
@@ -207,3 +217,6 @@ h1 {
 h2 {
   text-align: center;
 }
+/* 
+0*/
+/* Products */
