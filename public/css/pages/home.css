@@ -74,7 +74,7 @@
   font-size: 18px;
   position: absolute;
   bottom: 0;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .section.one > .left-right__container > .right {
@@ -99,7 +99,7 @@
 }
 
 .section.one > .left-right__container > .right > .demeco-logo > img {
-  object-fit: cover;
+  object-fit: scale-down;
   width: 100%;
   height: 100%;
 }
@@ -109,6 +109,8 @@
   font-size: 17px;
   max-width: 80vw;
   margin: 29px;
+  margin-top: 50px;
+  letter-spacing: normal;
 }
 
 .section.one > .social-icons__container {
@@ -118,7 +120,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   bottom: 0;
 }
 .section.one > .social-icons__container > img {
@@ -168,6 +170,12 @@
   background-blend-mode: screen;
 }
 
+.section.two > .select-fuel > .fuel:active {
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+
 .section.two > .select-fuel > .fuel.diesel:before {
   content: "diesel";
   position: absolute;
@@ -204,6 +212,88 @@
   bottom: -30px;
 }
 
+.section.four {
+  padding-top: 0;
+  position: relative;
+}
+
+.section.four > .select-payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.section.four > .select-payment > .gcash > img {
+  user-select: none;
+  object-position: top;
+  width: 30%;
+  height: 30%;
+}
+
+.section.four > .select-payment > .paymaya > img {
+  user-select: none;
+  object-position: top;
+  width: 50%;
+  height: 50%;
+}
+
+.section.four > .select-payment > .debitCredit > img {
+  user-select: none;
+  object-position: top;
+  width: 100%;
+  height: 100%;
+}
+
+.section.four > .select-payment > .payment:hover {
+  background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+}
+
+.section.four > .select-payment > .payment:active {
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+
+.section.four > .select-payment > .payment.gcash:before {
+  content: "gcash";
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+
+.section.four > .select-payment > .payment.paymaya:before {
+  content: "paymaya";
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+
+.section.four > .select-payment > .payment.debitCredit:before {
+  content: "debit/Credit Card";
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+
 .section.five > h1 {
   text-align: center;
   margin-top: 20px;
@@ -216,7 +306,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 100px;
+  gap: 70px;
   user-select: none;
   position: absolute;
   bottom: 0;
@@ -230,7 +320,7 @@
   position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-inline: 50px;
+  padding-inline: 40px;
   margin-bottom: 200px;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
