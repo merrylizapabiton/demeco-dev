@@ -48,7 +48,9 @@
   font-weight: bold;
   text-transform: uppercase;
   background: white;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .section.one > .left-right__container > .left > .login-btn:hover {
@@ -73,7 +75,6 @@
   position: absolute;
   bottom: 0;
   margin-bottom: 50px;
-
 }
 
 .section.one > .left-right__container > .right {
@@ -106,7 +107,7 @@
 .section.one > .something-that-is-really-long {
   color: white;
   font-size: 17px;
-  max-width: 60vw;
+  max-width: 80vw;
   margin: 29px;
 }
 
@@ -147,7 +148,9 @@
   background: white;
   cursor: pointer;
   position: relative;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .section.two > .select-fuel > .fuel > img {
@@ -159,8 +162,7 @@
 }
 
 .section.two > .select-fuel > .fuel:hover {
-  background:
-    linear-gradient(red, transparent),
+  background: linear-gradient(red, transparent),
     linear-gradient(to top left, lime, transparent),
     linear-gradient(to top right, blue, transparent);
   background-blend-mode: screen;
@@ -230,7 +232,8 @@
   padding-bottom: 50px;
   padding-inline: 50px;
   margin-bottom: 200px;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   flex: 1;
 }
 
@@ -250,7 +253,6 @@
   width: 64px;
   height: 64px;
   user-select: none;
-
 }
 
 .section.five > .card__container > .card > p {
