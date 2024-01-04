@@ -5,64 +5,135 @@
     <title>Online Fuel Delivery System</title>
     <link rel="stylesheet" href="css/pages/home.css" />
     <link rel="stylesheet" href="css/components/navbar.css" />
+    <link rel="stylesheet" href="global.css" />
   </head>
+
   <body>
-    <ul class="navbar">
-      <li class="links"><a href="#section1">home</a></li>
-      <li class="links"><a href="#section2">products</a></li>
-      <li class="links"><a href="#section3">map</a></li>
-      <li class="links"><a href="#section4">payment method</a></li>
-      <li class="links"><a href="#section5">about us</a></li>
-      <li class="links"><a href="/signin" target="_self">sign in</a></li>
-    </ul>
-    <div class="home">
-      <div id="section1">
-        <div class="left">
-          <h1 class="title">DEME CO</h1>
-          <h1 class="line">_______________</h1>
-          <h2>Online Fuel Delivery</h2>
-          <div class="btndiv">
-          <input type="button" value="Log in" class="Button"/>
+    <div class="page home">
+      <ul class="navbar">
+        <li class="links"><a href="#home">home</a></li>
+        <li class="links"><a href="#products">products</a></li>
+        <li class="links"><a href="#map">map</a></li>
+        <li class="links"><a href="#payment_method">payment method</a></li>
+        <li class="links"><a href="#about_us">about us</a></li>
+        <li class="links"><a href="/signin" target="_self">sign in</a></li>
+      </ul>
+
+      <section class="section one" id="home">
+        <div class="left-right__container">
+          <div class="left">
+            <h1>Deme Co</h1>
+            <hr />
+            <p>online fuel delivery</p>
+            <div class="login-btn">
+              <a draggable="false" href="/signin">log in</a>
+            </div>
+            <a href="/register" class="new-here-signup-now"
+              >New Here? Sign Up now</a
+            >
           </div>
-          <br>
-          <div class="signdiv">
-          <a href="/register" class="signup" target="_self">New here? Sign up now!</a>
-        </div>
-        </div>
 
-        <div class="right">
-          <h1 class="tagline">
-            We'll drive you there We'll fuel your tomorrows We'll fuel your
-            future
-          </h1>
-          <img src="assets/logo.png" class="logo"></img>
-        </div>
-      </div>
-      <div id="section2" class="products">
-        <h1>Products</h1>
-        <div class="gases">
-          <button>
-            <img draggable="false" src="assets/diesel.png"></img>
-          </button>
-          <button>
-            <img draggable="false" src="assets/unleaded.png" ></img>
-          </button>
-          <button>
-            <img draggable="false" src="assets/regular.png" ></img>
-          </button>
-        </div>
-      </div>
-      
-      <div id="section3">
-        <h1>Maps</h1>
-      </div>
-      <div id="section4">
-        <h1>Payment Method</h1>
-      </div>
+          <div class="right">
+            <span class="tagline">
+              <p>We'll drive you there</p>
+              <p>We'll fuel your tomorrows</p>
+              <p>We'll fuel your future</p>
+            </span>
 
-      <div id="section5">
-        <h1>About Us</h1>
-      </div>
+            <div class="demeco-logo">
+              <img src="assets/logo.png" alt="demeco logo" />
+            </div>
+          </div>
+        </div>
+        <p class="something-that-is-really-long">
+          Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
+          enim labore culpa sint ad nisi Lorem pariatur mollit ex esse
+          exercitation amet. Nisi anim cupidatat excepteur officia.
+          Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate
+          voluptate dolor minim nulla est proident. Nostrud officia pariatur ut
+          officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit
+          commodo officia dolor Lorem duis laboris cupidatat officia voluptate.
+          Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis
+          officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis
+          sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea
+          consectetur et est culpa et culpa duis.
+        </p>
+        <span class="social-icons__container">
+          <img src="assets/facebook-white.svg" alt="facebook icon" />
+          <img src="assets/instagram-white.svg" alt="instagram icon" />
+          <img src="assets/x-white.svg" alt="twitter/x icon" />
+        </span>
+      </section>
+
+      <section class="section two" id="products">
+        <div class="select-fuel">
+          <div class="fuel diesel">
+            <img draggable="false" src="assets/diesel.svg" alt="diesel fuel" />
+          </div>
+
+          <div class="fuel unleaded">
+            <img
+              draggable="false"
+              src="assets/unleaded.svg"
+              alt="unleaded fuel"
+            />
+          </div>
+
+          <div class="fuel regular">
+            <img
+              draggable="false"
+              src="assets/regular.svg"
+              alt="regular fuel"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section three"></section>
+
+      <section class="section four"></section>
+
+      <section class="section five" id="about_us">
+        <h1>about us</h1>
+        <div class="card__container">
+          <div class="card">
+            <div class="contributor-profile">
+              <img draggable="false" src="assets/user-icon.svg" alt="" />
+            </div>
+            <p class="contributor-name">Angeles, Edzel John</p>
+            <p class="contributor-age">23 years old</p>
+            <p class="contributor-course">BSIT NW3A</p>
+            <p class="contributor-address">Samal Bataan</p>
+          </div>
+          <div class="card">
+            <div class="contributor-profile">
+              <img draggable="false" src="assets/user-icon.svg" alt="" />
+            </div>
+            <p class="contributor-name">Pabiton, Meryliza T.</p>
+            <p class="contributor-age">20 years old</p>
+            <p class="contributor-course">BSIT NW3A</p>
+            <p class="contributor-address">Samal Bataan</p>
+          </div>
+          <div class="card">
+            <div class="contributor-profile">
+              <img draggable="false" src="assets/user-icon.svg" alt="" />
+            </div>
+            <p class="contributor-name">Ramos, Dannel</p>
+            <p class="contributor-age">21 years old</p>
+            <p class="contributor-course">BSIT NW3A</p>
+            <p class="contributor-address">Balanga Bataan</p>
+          </div>
+          <div class="card">
+            <div class="contributor-profile">
+              <img draggable="false" src="assets/user-icon.svg" alt="" />
+            </div>
+            <p class="contributor-name">Tesoro, Edgar Z.</p>
+            <p class="contributor-age">20 years old</p>
+            <p class="contributor-course">BSIT NW3A</p>
+            <p class="contributor-address">Bagac Bataan</p>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
