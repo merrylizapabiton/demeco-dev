@@ -182,3 +182,23 @@
   position: relative;
   top: 2px;
 }
+.birth::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+.birth {
+  background-color: #62457c;
+  margin-left: 10px;
+  color: #ffffff;
+  width: 200px;
+  padding-left: 55px;
+  justify-content: space-evenly;
+}
