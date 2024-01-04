@@ -2,13 +2,13 @@
   display: flex;
   border-radius: 30px;
   justify-content: flex-start;
-  margin: 20px;
+  margin-inline: 20px;
   outline: 2px solid #a59bd5;
   background: #371d50;
-  top: 0;
+  top: 20px;
   left: 0;
   right: 0;
-  position: fixed;
+  position: sticky;
   z-index: 999;
   list-style: none;
   overflow: hidden;
