@@ -217,32 +217,64 @@
   position: relative;
 }
 
-.section.four > .select-payment {
+.section.four > .paymentdiv {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  align-content: center;
+  width: fit-content;
+}
+
+.section.four > .paymentdiv h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.section.four > .paymentdiv > .select-payment {
   display: flex;
-  justify-content: center;
   align-items: center;
-  min-height: 50vh;
+  min-height: 20vh;
+  width: 500px;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 40px;
+  justify-content: space-around;
 }
 
-.section.four > .select-payment > .gcash > img {
-  user-select: none;
-  object-position: top;
-  width: 30%;
-  height: 30%;
+.section.four > .paymentdiv > .select-payment > .gcash {
+  flex-basis: 33%;
 }
 
-.section.four > .select-payment > .paymaya > img {
+.section.four > .paymentdiv > .select-payment > .paymaya {
+  flex-basis: 33%;
+}
+
+.section.four > .paymentdiv > .select-payment > .debitCredit {
+  flex-basis: 33%;
+}
+
+.section.four > .paymentdiv > .select-payment > .gcash > img {
   user-select: none;
   object-position: top;
   width: 50%;
   height: 50%;
 }
 
-.section.four > .select-payment > .debitCredit > img {
+.section.four > .paymentdiv > .select-payment > .paymaya > img {
   user-select: none;
   object-position: top;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
+}
+
+.section.four > .paymentdiv > .select-payment > .debitCredit > img {
+  user-select: none;
+  object-position: top;
+  width: 70%;
+  height: 70%;
 }
 
 .section.four > .select-payment > .payment:hover {
@@ -252,13 +284,13 @@
   background-blend-mode: screen;
 }
 
-.section.four > .select-payment > .payment:active {
+.section.four > .paymentdiv > .select-payment > .payment:active {
   position: relative;
   top: 2px;
   right: 2px;
 }
 
-.section.four > .select-payment > .payment.gcash:before {
+.section.four > .paymentdiv > .select-payment > .payment.gcash:before {
   content: "gcash";
   position: absolute;
   left: 50%;
@@ -270,7 +302,7 @@
   bottom: -30px;
 }
 
-.section.four > .select-payment > .payment.paymaya:before {
+.section.four > .paymentdiv > .select-payment > .payment.paymaya:before {
   content: "paymaya";
   position: absolute;
   left: 50%;
@@ -282,7 +314,7 @@
   bottom: -30px;
 }
 
-.section.four > .select-payment > .payment.debitCredit:before {
+.section.four > .paymentdiv > .select-payment > .payment.debitCredit:before {
   content: "debit/Credit Card";
   position: absolute;
   left: 50%;
@@ -292,6 +324,60 @@
   text-transform: capitalize;
   transform: translateX(-50%);
   bottom: -30px;
+}
+
+.section.four > .customersForm {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  max-width: fit-content;
+  left: 50%;
+  height: 60%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  transform: translateX(-50%);
+  color: white;
+  border: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section.four .Textbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.section.four .input {
+  font-size: 13px;
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  background: #d3b5f0;
+  color: #000000;
+  border: 1px solid #62457c;
+  border-radius: 100px;
+  transition: 0.3s ease;
+  margin: 5px;
+  width: 450px;
+  opacity: 0.65;
+}
+
+.section.four .input:focus {
+  background: #cbafe7;
+  border: 1px solid #62457c;
+  border-radius: 10px;
+}
+
+.section.four .input::placeholder {
+  color: #000000;
 }
 
 .section.five > h1 {
