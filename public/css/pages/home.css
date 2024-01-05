@@ -380,6 +380,33 @@
   color: #000000;
 }
 
+.section.four .submitbtn {
+  cursor: pointer;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-left: 75px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #371d50;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.section.four .submitbtn:hover {
+  background: none;
+}
+.section.four .submitbtn a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+.section.four .submitbtn a:hover {
+  color: white;
+  background: #371d50;
+}
+
 .section.five > h1 {
   text-align: center;
   margin-top: 20px;
