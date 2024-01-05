@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+.<!DOCTYPE html>
 
 <html lang="en">
   <head>
@@ -91,27 +91,64 @@
 
       <section class="section three"></section>
 
-      <section class="section four" id="payment">
-        <div class="select-payment">
-          <div class="gcash">
-            <img draggable="false" src="assets/gcash.png" alt="gcash logo" />
-          </div>
+      <section class="section four" id="payment_method">
+        <div class="paymentdiv">
+          <h1>Select Payment method</h1>
+          <div class="select-payment">
+            <div class="gcash">
+              <img draggable="false" src="assets/gcash.png" alt="gcash logo" />
+            </div>
 
-          <div class="paymaya">
-            <img
-              draggable="false"
-              src="assets/paymaya.png"
-              alt="paymaya logo"
-            />
-          </div>
+            <div class="paymaya">
+              <img
+                draggable="false"
+                src="assets/paymaya.png"
+                alt="paymaya logo"
+              />
+            </div>
 
-          <div class="debitCredit">
-            <img
-              draggable="false"
-              src="assets/mcard.png"
-              alt="debit/credit card logo"
-            />
+            <div class="debitCredit">
+              <img
+                draggable="false"
+                src="assets/mcard.png"
+                alt="debit/credit card logo"
+              />
+            </div>
           </div>
+        </div>
+
+        <div class="customersForm" id="custDetails">
+          <div class="custDiv">
+            <h3>Customer Details</h3>
+            <div class="Textbox">
+              <h3>Fullname</h3>
+              <input class="input" placeholder="Enter your name" type="text"/>
+              <h3>Phone Number</h3>
+              <input class="input" placeholder="Enter your number" type="text"/>
+          </div>
+          <div class="Textbox">
+            <h3> E-mail Address</h3>
+            <input class="input" placeholder="Enter you E-mail Address" type="text"/>
+            <h3> Order ID</h3>
+            <input class="input" placeholder="Enter your order ID" type="number"/>
+          </div>
+          <div class="Textbox">
+            <h3> Location </h3>
+            <input class="input" placeholder="Enter your Location" type="text"/>
+          </div>
+          <div class="Textbox">
+            <h3>Type of Gas</h3>
+            <input class="input" type="text"/>
+            <h3>Shipping Fee</h3>
+            <input class="input" type="number"/> 
+          </div>
+          <div class="Textbox">
+            <h3>How many liters?</h3>
+            <input class="input" placeholder="e.g 5L" type="text"/>
+            <button type="button">
+                Order Now
+              </button>
+        </div>
         </div>
       </section>
 
