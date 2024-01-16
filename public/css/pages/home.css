@@ -311,13 +311,7 @@
   flex-basis: 42%;
 }
 
-.section.four > .paymentdiv > .select-payment > .payment:active {
-  position: relative;
-  top: 2px;
-  right: 2px;
-}
-
-.section.four > .paymentdiv > .select-payment > .payment.gcash:before {
+/*.section.four > .paymentdiv > .select-payment > .gcash:before {
   content: "gcash";
   position: absolute;
   left: 50%;
@@ -329,7 +323,7 @@
   bottom: -30px;
 }
 
-.section.four > .paymentdiv > .select-payment > .payment.paymaya:before {
+.section.four > .paymentdiv > .select-payment > .paymaya:before {
   content: "paymaya";
   position: absolute;
   left: 50%;
@@ -341,7 +335,7 @@
   bottom: -30px;
 }
 
-.section.four > .paymentdiv > .select-payment > .payment.debitCredit:before {
+.section.four > .paymentdiv > .select-payment > .debitCredit:before {
   content: "debit/Credit Card";
   position: absolute;
   left: 50%;
@@ -351,7 +345,7 @@
   text-transform: capitalize;
   transform: translateX(-50%);
   bottom: -30px;
-}
+}*/
 
 .section.four > .customersForm {
   display: flex;
