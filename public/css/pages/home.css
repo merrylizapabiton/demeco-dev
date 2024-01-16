@@ -241,7 +241,7 @@
   margin-top: 10px;
   padding: 10px;
   margin-left: 40px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .section.four > .paymentdiv > .select-payment > .gcash {
@@ -277,11 +277,38 @@
   height: 70%;
 }
 
-.section.four > .select-payment > .payment:hover {
+.section.four > .paymentdiv > .select-payment > .gcash:hover {
   background: linear-gradient(red, transparent),
     linear-gradient(to top left, lime, transparent),
     linear-gradient(to top right, blue, transparent);
   background-blend-mode: screen;
+  border-radius: 50px;
+  align-content: center;
+  overflow: hidden;
+  padding-left: 90px;
+  flex-basis: 50%;
+}
+.section.four > .paymentdiv > .select-payment > .paymaya:hover {
+  background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+  border-radius: 50px;
+  align-content: center;
+  overflow: hidden;
+  padding-left: 90px;
+  flex-basis: 50%;
+}
+.section.four > .paymentdiv > .select-payment > .debitCredit:hover {
+  background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+  border-radius: 50px;
+  align-content: center;
+  overflow: hidden;
+  padding-left: 50px;
+  flex-basis: 42%;
 }
 
 .section.four > .paymentdiv > .select-payment > .payment:active {
