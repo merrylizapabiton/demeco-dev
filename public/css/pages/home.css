@@ -164,9 +164,9 @@
 }
 
 .section.two > .select-fuel > .fuel:hover {
-  background: linear-gradient(red, transparent),
-    linear-gradient(to top left, lime, transparent),
-    linear-gradient(to top right, blue, transparent);
+  background: linear-gradient(rgb(255, 255, 255), transparent),
+  linear-gradient(to top left, rgb(189, 95, 198), transparent),
+  linear-gradient(to top right, rgb(158, 123, 228), transparent);
   background-blend-mode: screen;
 }
 
@@ -237,7 +237,7 @@
   display: flex;
   align-items: center;
   min-height: 20vh;
-  width: 500px;
+  width: 450px;
   margin-top: 10px;
   padding: 10px;
   margin-left: 40px;
@@ -245,15 +245,15 @@
 }
 
 .section.four > .paymentdiv > .select-payment > .gcash {
-  flex-basis: 33%;
+  flex-basis: 30%;
 }
 
 .section.four > .paymentdiv > .select-payment > .paymaya {
-  flex-basis: 33%;
+  flex-basis: 30%;
 }
 
 .section.four > .paymentdiv > .select-payment > .debitCredit {
-  flex-basis: 33%;
+  flex-basis: 30%;
 }
 
 .section.four > .paymentdiv > .select-payment > .gcash > img {
@@ -276,39 +276,42 @@
   width: 70%;
   height: 70%;
 }
-
+/* small adjustments */
 .section.four > .paymentdiv > .select-payment > .gcash:hover {
-  background: linear-gradient(red, transparent),
-    linear-gradient(to top left, lime, transparent),
-    linear-gradient(to top right, blue, transparent);
+  background: linear-gradient(rgb(255, 255, 255), transparent),
+    linear-gradient(to top left, rgb(111, 62, 208), transparent),
+    linear-gradient(to top right, rgb(29, 29, 61), transparent);
   background-blend-mode: screen;
-  border-radius: 50px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  padding-left: 15px;
   align-content: center;
   overflow: hidden;
-  padding-left: 90px;
-  flex-basis: 50%;
+  flex-basis: 30%;
 }
 .section.four > .paymentdiv > .select-payment > .paymaya:hover {
-  background: linear-gradient(red, transparent),
-    linear-gradient(to top left, lime, transparent),
-    linear-gradient(to top right, blue, transparent);
+  background: linear-gradient(rgb(255, 255, 255), transparent),
+    linear-gradient(to top left, rgb(111, 62, 208), transparent),
+    linear-gradient(to top right, rgb(29, 29, 61), transparent);
   background-blend-mode: screen;
-  border-radius: 50px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  padding-left: 15px;
   align-content: center;
   overflow: hidden;
-  padding-left: 90px;
-  flex-basis: 50%;
+  flex-basis: 30%;
 }
 .section.four > .paymentdiv > .select-payment > .debitCredit:hover {
-  background: linear-gradient(red, transparent),
-    linear-gradient(to top left, lime, transparent),
-    linear-gradient(to top right, blue, transparent);
+  background: linear-gradient(rgb(255, 255, 255), transparent),
+    linear-gradient(to top left, rgb(111, 62, 208), transparent),
+    linear-gradient(to top right, rgb(29, 29, 61), transparent);
   background-blend-mode: screen;
-  border-radius: 50px;
+  background-size: 120px;
+  background-repeat: no-repeat;
+  padding-left: 15px;
   align-content: center;
   overflow: hidden;
-  padding-left: 50px;
-  flex-basis: 42%;
+  flex-basis: 30%;
 }
 
 /*.section.four > .paymentdiv > .select-payment > .gcash:before {
