@@ -1,7 +1,7 @@
 let express = require("express")
 
 let app = express()
-let PORT = 6968
+let PORT = 6969
 
 app.use(express.static(`${__dirname}/public`))
  
