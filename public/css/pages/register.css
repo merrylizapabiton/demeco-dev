@@ -53,6 +53,10 @@
   position: relative;
 }
 
+.Btncontainer {
+  align-self: center;
+  align-content: center;
+}
 .regBtn {
   align-self: center;
   background-color: transparent;
