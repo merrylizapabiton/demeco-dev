@@ -165,8 +165,8 @@
 
 .section.two > .select-fuel > .fuel:hover {
   background: linear-gradient(rgb(255, 255, 255), transparent),
-  linear-gradient(to top left, rgb(189, 95, 198), transparent),
-  linear-gradient(to top right, rgb(158, 123, 228), transparent);
+    linear-gradient(to top left, rgb(189, 95, 198), transparent),
+    linear-gradient(to top right, rgb(158, 123, 228), transparent);
   background-blend-mode: screen;
 }
 
@@ -276,7 +276,6 @@
   width: 70%;
   height: 70%;
 }
-/* small adjustments */
 .section.four > .paymentdiv > .select-payment > .gcash:hover {
   background: linear-gradient(rgb(255, 255, 255), transparent),
     linear-gradient(to top left, rgb(111, 62, 208), transparent),

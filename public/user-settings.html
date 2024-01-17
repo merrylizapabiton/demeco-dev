@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/components/navbar.css" />
     <link rel="stylesheet" href="css/pages/user-settings.css" />
     <title>User Settings</title>
 </head>
 <body>
-    <div class="regform">
+  <div class="bg">
+    <ul class="navbar">
+      <li class="links"><a href="/">home</a></li>
+      <li class="links"><a href="/#products">products</a></li>
+      <li class="links"><a href="/#map">map</a></li>
+      <li class="links"><a href="/#payment_method">payment method</a></li>
+      <li class="links"><a href="/#about_us">about us</a></li>
+      <li class="links"><a href="/signin" target="_self">sign in</a></li>
+    </ul>
+    <div class="editform">
         <h1>User Settings</h1>
-        <div class="regdiv">
+    <div class="user">
+      <img src="assets/user-icon.svg" alt="user-icon"  draggable="false">
+    </div>
+        <div class="editdiv">
           <h3>Account</h3>
           <div class="Textbox">
             <input class="input" placeholder="First name" type="text" />
@@ -26,7 +39,7 @@
             <input type="date" class="birth" />
           </div>
           <div>
-            <input class="input" placeholder="E-mail" type="text" />
+            <input class="input" placeholder="E-mail" type="email" readonly/>
             <input class="input" placeholder="Phone Number" type="text" />
             <input class="input" placeholder="Password" type="text" />
             <input class="input" placeholder="Confirm Password" type="text" />
