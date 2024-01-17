@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  border-radius: 30px;
+  justify-content: flex-start;
+  margin-inline: 20px;
+  outline: 2px solid #a59bd5;
+  background: #371d50;
+  top: 20px;
+  left: 0;
+  right: 0;
+  position: sticky;
+  z-index: 999;
+  list-style: none;
+  overflow: hidden;
+}
+
+.navbar .links {
+  text-wrap: nowrap;
+}
+
+.navbar .links:last-child {
+  position: absolute;
+  right: 0;
+}
+.navbar .links:last-child > img {
+  margin-left: 20px;
+}
+
+.navbar .links > a:focus {
+  color: #371d50;
+  background: #a59bd5;
+}
+
+.navbar .links a {
+  display: block;
+  padding: 20px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  user-select: none;
+}
+
+.navbar .links:hover a {
+  color: #371d50;
+  background: #a59bd5;
+}

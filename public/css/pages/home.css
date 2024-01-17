@@ -1,0 +1,491 @@
+.section {
+  padding-top: 80px;
+  min-height: 100vh;
+  position: relative;
+  outline: 1px solid white;
+}
+
+.section.one > .left-right__container {
+  display: flex;
+  min-height: 50vh;
+}
+
+.section.one > .left-right__container > .left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 40%;
+}
+
+.section.one > .left-right__container > .left > h1 {
+  text-transform: uppercase;
+  font-size: 64px;
+  color: white;
+}
+
+.section.one > .left-right__container > .left > hr {
+  min-width: 360px;
+  height: 5px;
+  background: white;
+  border: none;
+}
+
+.section.one > .left-right__container > .left > p {
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+}
+
+.section.one > .left-right__container > .left > .login-btn {
+  cursor: pointer;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.section.one > .left-right__container > .left > .login-btn:hover {
+  background: none;
+}
+
+.section.one > .left-right__container > .left > .login-btn > a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
+.section.one > .left-right__container > .left > .login-btn > a:hover {
+  color: white;
+  background: #371d50;
+}
+
+.section.one > .left-right__container > .left > .new-here-signup-now {
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+
+.section.one > .left-right__container > .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-basis: 60%;
+}
+
+.section.one > .left-right__container > .right > .tagline > p {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.section.one > .left-right__container > .right > .demeco-logo {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.section.one > .left-right__container > .right > .demeco-logo > img {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
+
+.section.one > .something-that-is-really-long {
+  color: white;
+  font-size: 17px;
+  max-width: 80vw;
+  margin: 29px;
+  margin-top: 50px;
+  letter-spacing: normal;
+}
+
+.section.one > .social-icons__container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+  bottom: 0;
+}
+.section.one > .social-icons__container > img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.section.two {
+  padding-top: 0;
+  position: relative;
+}
+
+.section.two > .select-fuel {
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  min-height: 100vh;
+}
+
+.section.two > .select-fuel > .fuel {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  padding: 40px;
+  background: white;
+  cursor: pointer;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.section.two > .select-fuel > .fuel > img {
+  object-fit: cover;
+  user-select: none;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.section.two > .select-fuel > .fuel:hover {
+  background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+}
+
+.section.two > .select-fuel > .fuel:active {
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+
+.section.two > .select-fuel > .fuel.diesel:before {
+  content: "diesel";
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+
+.section.two > .select-fuel > .fuel.unleaded:before {
+  content: "unleaded";
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+
+.section.two > .select-fuel > .fuel.regular:before {
+  content: "regular";
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+
+.section.four {
+  padding-top: 0;
+  position: relative;
+}
+
+.section.four > .paymentdiv {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  align-content: center;
+  width: fit-content;
+}
+
+.section.four > .paymentdiv h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.section.four > .paymentdiv > .select-payment {
+  display: flex;
+  align-items: center;
+  min-height: 20vh;
+  width: 500px;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 40px;
+  justify-content: space-evenly;
+}
+
+.section.four > .paymentdiv > .select-payment > .gcash {
+  flex-basis: 33%;
+}
+
+.section.four > .paymentdiv > .select-payment > .paymaya {
+  flex-basis: 33%;
+}
+
+.section.four > .paymentdiv > .select-payment > .debitCredit {
+  flex-basis: 33%;
+}
+
+.section.four > .paymentdiv > .select-payment > .gcash > img {
+  user-select: none;
+  object-position: top;
+  width: 50%;
+  height: 50%;
+}
+
+.section.four > .paymentdiv > .select-payment > .paymaya > img {
+  user-select: none;
+  object-position: top;
+  width: 50%;
+  height: 50%;
+}
+
+.section.four > .paymentdiv > .select-payment > .debitCredit > img {
+  user-select: none;
+  object-position: top;
+  width: 70%;
+  height: 70%;
+}
+
+.section.four > .paymentdiv > .select-payment > .gcash:hover {
+  background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+  border-radius: 50px;
+  align-content: center;
+  overflow: hidden;
+  padding-left: 90px;
+  flex-basis: 50%;
+}
+.section.four > .paymentdiv > .select-payment > .paymaya:hover {
+  background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+  border-radius: 50px;
+  align-content: center;
+  overflow: hidden;
+  padding-left: 90px;
+  flex-basis: 50%;
+}
+.section.four > .paymentdiv > .select-payment > .debitCredit:hover {
+  background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+  border-radius: 50px;
+  align-content: center;
+  overflow: hidden;
+  padding-left: 50px;
+  flex-basis: 42%;
+}
+
+/*.section.four > .paymentdiv > .select-payment > .gcash:before {
+  content: "gcash";
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+
+.section.four > .paymentdiv > .select-payment > .paymaya:before {
+  content: "paymaya";
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+
+.section.four > .paymentdiv > .select-payment > .debitCredit:before {
+  content: "debit/Credit Card";
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+  transform: translateX(-50%);
+  bottom: -30px;
+}*/
+
+.section.four > .customersForm {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  max-width: fit-content;
+  left: 50%;
+  height: 60%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  transform: translateX(-50%);
+  color: white;
+  border: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section.four .Textbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.section.four .input {
+  font-size: 13px;
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  background: #d3b5f0;
+  color: #000000;
+  border: 1px solid #62457c;
+  border-radius: 100px;
+  transition: 0.3s ease;
+  margin: 5px;
+  width: 450px;
+  opacity: 0.65;
+}
+
+.section.four .input:focus {
+  background: #cbafe7;
+  border: 1px solid #62457c;
+  border-radius: 10px;
+}
+
+.section.four .input::placeholder {
+  color: #000000;
+}
+
+.section.four .submitbtn {
+  cursor: pointer;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-left: 75px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #371d50;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.section.four .submitbtn:hover {
+  background: none;
+}
+.section.four .submitbtn a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+.section.four .submitbtn a:hover {
+  color: white;
+  background: #371d50;
+}
+
+.section.five > h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.section.five > .card__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 70px;
+  user-select: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-inline: 100px;
+}
+
+.section.five > .card__container > .card {
+  border: 5px solid white;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-inline: 40px;
+  margin-bottom: 200px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  flex: 1;
+}
+
+.section.five > .card__container > .card > .contributor-profile {
+  position: absolute;
+  background: white;
+  overflow: hidden;
+  left: 50%;
+  border-radius: 50%;
+  border: 4px solid white;
+  transform: translateX(-50%);
+  top: -64px;
+  width: 100px;
+  height: 100px;
+}
+
+.section.five > .card__container > .card > .contributor-profile > img {
+  object-position: center;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+.section.five > .card__container > .card > p {
+  text-align: center;
+  text-wrap: nowrap;
+  margin-block: 5px;
+  user-select: none;
+  font-size: 20px;
+  color: white;
+}
