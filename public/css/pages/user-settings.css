@@ -17,15 +17,16 @@
   max-width: fit-content;
   position: relative;
   left: 50%;
-  height: 100%;
-  padding-top: 100px;
-  padding-bottom: 40px;
-  transform: translateX(-50%);
   color: white;
 }
-
-.right > .user > img {
-  object-fit: scale-down;
+.editform > .user {
+  align-self: right;
+  width: 100vh;
+  height: 70px;
+  padding-left: 500px;
+  align-content: right;
+}
+.editform > .user > img {
   width: 100%;
   height: 100%;
 }
