@@ -10,11 +10,11 @@
   background-size: 100%;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
 }
 
 .admin > h1 {
   color: #371d50;
-  margin-left: 10px;
 }
 .btn {
   background-color: #ffffff;

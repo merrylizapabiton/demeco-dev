@@ -237,7 +237,7 @@
   display: flex;
   align-items: center;
   min-height: 20vh;
-  width: 450px;
+  width: 500px;
   margin-top: 10px;
   padding: 10px;
   margin-left: 40px;
@@ -245,15 +245,18 @@
 }
 
 .section.four > .paymentdiv > .select-payment > .gcash {
-  flex-basis: 30%;
+  flex-basis: 33%;
+  border-radius: 50px;
 }
 
 .section.four > .paymentdiv > .select-payment > .paymaya {
-  flex-basis: 30%;
+  flex-basis: 33%;
+  border-radius: 50px;
 }
 
 .section.four > .paymentdiv > .select-payment > .debitCredit {
-  flex-basis: 30%;
+  flex-basis: 33%;
+  border-radius: 50px;
 }
 
 .section.four > .paymentdiv > .select-payment > .gcash > img {
@@ -281,36 +284,40 @@
     linear-gradient(to top left, rgb(111, 62, 208), transparent),
     linear-gradient(to top right, rgb(29, 29, 61), transparent);
   background-blend-mode: screen;
-  background-size: 100px;
+
   background-repeat: no-repeat;
   padding-left: 15px;
   align-content: center;
   overflow: hidden;
-  flex-basis: 30%;
+  flex-basis: 40%;
+  padding-left: 70px;
 }
 .section.four > .paymentdiv > .select-payment > .paymaya:hover {
   background: linear-gradient(rgb(255, 255, 255), transparent),
     linear-gradient(to top left, rgb(111, 62, 208), transparent),
     linear-gradient(to top right, rgb(29, 29, 61), transparent);
   background-blend-mode: screen;
-  background-size: 100px;
+
   background-repeat: no-repeat;
   padding-left: 15px;
   align-content: center;
   overflow: hidden;
-  flex-basis: 30%;
+  flex-basis: 40%;
+  padding-left: 70px;
 }
 .section.four > .paymentdiv > .select-payment > .debitCredit:hover {
   background: linear-gradient(rgb(255, 255, 255), transparent),
     linear-gradient(to top left, rgb(111, 62, 208), transparent),
     linear-gradient(to top right, rgb(29, 29, 61), transparent);
   background-blend-mode: screen;
-  background-size: 120px;
+
   background-repeat: no-repeat;
   padding-left: 15px;
   align-content: center;
   overflow: hidden;
-  flex-basis: 30%;
+  flex-basis: 33%;
+  padding-left: 42px;
+  width: 250px;
 }
 
 /*.section.four > .paymentdiv > .select-payment > .gcash:before {

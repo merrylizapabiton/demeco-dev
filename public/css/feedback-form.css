@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.feedback {
+  background-image: url(/../assets/bg_homepage.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 15px;
+}
+.textBox {
+  height: 100px;
+  width: 300px;
+  font-size: 15px;
+  background-color: #d3b5f0;
+  opacity: 0.65;
+}
+.textBox:focus {
+  height: 150px;
+  width: 400px;
+  border: #62457c;
+  border-width: 2px;
+  border-style: solid;
+}
+.feedForm > .input {
+  font-size: 13px;
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  background: #d3b5f0;
+  color: #000000;
+  border: 1px solid #62457c;
+  border-radius: 100px;
+  transition: 0.3s ease;
+  margin: 5px;
+  width: 450px;
+  opacity: 0.85;
+}
+
+.regBtn {
+  align-self: center;
+  background-color: transparent;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 10px 22px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  font-weight: bold;
+  width: 100px;
+}
+.regBtn:hover {
+  background-color: #bb93e3;
+  color: #471d6d;
+  border: 1px solid #292929;
+}
+
+.regBtn:active {
+  position: relative;
+  top: 2px;
+}
+
+.feedback > .gender {
+  padding-left: 20px;
+  justify-content: space-between;
+  width: 300px;
+}
