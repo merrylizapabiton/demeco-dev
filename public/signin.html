@@ -20,19 +20,19 @@
         <li class="links"><a href="/signin" target="_self">sign in</a></li>
       </ul>
 
-      <div class="signin_form">
+      <form target="_blank" action="http://localhost:8080/login" method="POST" class="signin_form">
         <div class="demeco-icon">
           <img src="assets/logo.png" alt="demeco-logo" />
         </div>
         <h1>Welcome!</h1>
         <h3>Sign in to your account.</h3>
         <div class="Textbox">
-          <input class="input" placeholder="Username" type="text" />
-          <input class="input" placeholder="Password" type="password" />
+          <input name="username" class="input" placeholder="Username" type="text" />
+          <input name="password" class="input" placeholder="Password" type="password" />
         </div>
         <a href="/forgot-password" class="forgotpass">Forgot password</a>
-        <input type="button" value="Log in" class="LoginBtn" />
-      </div>
+        <input type="submit" value="Log in" class="LoginBtn" />
+      </form>
     </div>
   </body>
 </html>

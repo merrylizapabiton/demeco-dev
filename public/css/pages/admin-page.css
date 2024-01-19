@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.admin {
+  background-image: url(/../assets/bg_homepage.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
+
+.admin > h1 {
+  color: #371d50;
+}
+.btn {
+  background-color: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 1300px;
+  width: 150px;
+  font-size: larger;
+  min-height: 40px;
+  text-shadow: 0px 1px 0px #2a2d2a;
+}
+.btn:hover {
+  background-color: #865aff;
+  color: white;
+}
+
+.btn:active {
+  position: relative;
+  color: white;
+  top: 2px;
+}
+.table {
+  border: 2;
+}
+.adminPage {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnSide1 {
+  background-color: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 50px;
+  width: 150px;
+  font-size: larger;
+  min-height: 40px;
+  text-shadow: 0px 1px 0px #2a2d2a;
+}
+.btnSide1:hover {
+  background-color: #c26df7;
+  color: white;
+}
+
+.btnSide1:active {
+  position: relative;
+  color: white;
+  top: 2px;
+}
+
+.btnSide2 {
+  background-color: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 50px;
+  width: 180px;
+  font-size: larger;
+  min-height: 40px;
+  text-shadow: 0px 1px 0px #2a2d2a;
+}
+.btnSide2:hover {
+  background-color: #a964f8;
+  color: white;
+}
+
+.btnSide2:active {
+  position: relative;
+  color: white;
+  top: 2px;
+}
+
+.btnSide3 {
+  background-color: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 50px;
+  width: 180px;
+  font-size: larger;
+  min-height: 40px;
+  text-shadow: 0px 1px 0px #2a2d2a;
+}
+.btnSide3:hover {
+  background-color: #9763f8;
+  color: white;
+}
+
+.btnSide3:active {
+  position: relative;
+  color: white;
+  top: 2px;
+}
+.adminEdit {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnSide4 {
+  background-color: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 1300px;
+  width: 150px;
+  font-size: larger;
+  min-height: 40px;
+  text-shadow: 0px 1px 0px #2a2d2a;
+}
+.btnSide4:hover {
+  background-color: #865aff;
+  color: white;
+}
+
+.btnSide4:active {
+  position: relative;
+  color: white;
+  top: 2px;
+}
+
+table {
+  margin: 50px;
+  block-size: 100px;
+  margin-left: 120px;
+  border-collapse: separate;
+  border: solid rgb(245, 245, 245) 1px;
+  border-radius: 6px;
+  color: white;
+}
+
+td,
+th {
+  border-left: solid rgb(255, 255, 255) 1px;
+  border-top: solid rgb(255, 255, 255) 1px;
+  padding: 15px;
+  border-spacing: 15px;
+}
+
+th {
+  background-color: rgb(0, 0, 0);
+  border-top: none;
+}
+
+td:first-child,
+th:first-child {
+  border-left: none;
+}
